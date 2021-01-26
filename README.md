@@ -14,7 +14,7 @@ A library for creating WebServers in C#.
       Takes either nothing or a callback to execute after server start.
 - WebServer
    - Constructor
-      Takes either prefixes as a IReadOnlyCollection or a string.
+      Takes callback methods and either prefixes as a IReadOnlyCollection or a string.
       Creates a new instance of a WebServer.
    - Run
       Starts the instance of the WebServer.
